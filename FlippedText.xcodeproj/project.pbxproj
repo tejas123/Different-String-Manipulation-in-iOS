@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDAE85C518AE2FFB00A74107 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDAE85C418AE2FFB00A74107 /* MessageUI.framework */; };
+		EDAE85D318AE31CC00A74107 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDAE85D218AE31CC00A74107 /* Social.framework */; };
+		EDDE070718ACF328006A2295 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDE070618ACF328006A2295 /* ViewController.m */; };
+		EDED74F718AB6DEF00967093 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDED74F618AB6DEF00967093 /* Foundation.framework */; };
+		EDED74F918AB6DEF00967093 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDED74F818AB6DEF00967093 /* CoreGraphics.framework */; };
+		EDED74FB18AB6DEF00967093 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDED74FA18AB6DEF00967093 /* UIKit.framework */; };
+		EDED750118AB6DEF00967093 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDED74FF18AB6DEF00967093 /* InfoPlist.strings */; };
+		EDED750318AB6DEF00967093 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDED750218AB6DEF00967093 /* main.m */; };
+		EDED750718AB6DEF00967093 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDED750618AB6DEF00967093 /* AppDelegate.m */; };
+		EDED750A18AB6DEF00967093 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDED750818AB6DEF00967093 /* Main_iPhone.storyboard */; };
+		EDED750D18AB6DEF00967093 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDED750B18AB6DEF00967093 /* Main_iPad.storyboard */; };
+		EDED751218AB6DEF00967093 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDED751118AB6DEF00967093 /* Images.xcassets */; };
+		EDED751918AB6DEF00967093 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDED751818AB6DEF00967093 /* XCTest.framework */; };
+		EDED751A18AB6DEF00967093 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDED74F618AB6DEF00967093 /* Foundation.framework */; };
+		EDED751B18AB6DEF00967093 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDED74FA18AB6DEF00967093 /* UIKit.framework */; };
+		EDED752318AB6DEF00967093 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDED752118AB6DEF00967093 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDED751C18AB6DEF00967093 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDED74EB18AB6DEF00967093 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDED74F218AB6DEF00967093;
+			remoteInfo = FlippedText;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDAE85C418AE2FFB00A74107 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		EDAE85D218AE31CC00A74107 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		EDDE070518ACF328006A2295 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EDDE070618ACF328006A2295 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EDED74F318AB6DEF00967093 /* FlippedText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlippedText.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDED74F618AB6DEF00967093 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EDED74F818AB6DEF00967093 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EDED74FA18AB6DEF00967093 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EDED74FE18AB6DEF00967093 /* FlippedText-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlippedText-Info.plist"; sourceTree = "<group>"; };
+		EDED750018AB6DEF00967093 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EDED750218AB6DEF00967093 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDED750418AB6DEF00967093 /* FlippedText-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlippedText-Prefix.pch"; sourceTree = "<group>"; };
+		EDED750518AB6DEF00967093 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDED750618AB6DEF00967093 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDED750918AB6DEF00967093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		EDED750C18AB6DEF00967093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		EDED751118AB6DEF00967093 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EDED751718AB6DEF00967093 /* FlippedTextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlippedTextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDED751818AB6DEF00967093 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EDED752018AB6DEF00967093 /* FlippedTextTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlippedTextTests-Info.plist"; sourceTree = "<group>"; };
+		EDED752218AB6DEF00967093 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDED74F018AB6DEF00967093 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDAE85D318AE31CC00A74107 /* Social.framework in Frameworks */,
+				EDAE85C518AE2FFB00A74107 /* MessageUI.framework in Frameworks */,
+				EDED74F918AB6DEF00967093 /* CoreGraphics.framework in Frameworks */,
+				EDED74FB18AB6DEF00967093 /* UIKit.framework in Frameworks */,
+				EDED74F718AB6DEF00967093 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDED751418AB6DEF00967093 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDED751918AB6DEF00967093 /* XCTest.framework in Frameworks */,
+				EDED751B18AB6DEF00967093 /* UIKit.framework in Frameworks */,
+				EDED751A18AB6DEF00967093 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED16CC5C18AB8BF00063C6FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EDDE070418ACF328006A2295 /* ViewController */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EDDE070418ACF328006A2295 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EDDE070518ACF328006A2295 /* ViewController.h */,
+				EDDE070618ACF328006A2295 /* ViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		EDED74EA18AB6DEF00967093 = {
+			isa = PBXGroup;
+			children = (
+				EDED74FC18AB6DEF00967093 /* FlippedText */,
+				EDED751E18AB6DEF00967093 /* FlippedTextTests */,
+				EDED74F518AB6DEF00967093 /* Frameworks */,
+				EDED74F418AB6DEF00967093 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDED74F418AB6DEF00967093 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDED74F318AB6DEF00967093 /* FlippedText.app */,
+				EDED751718AB6DEF00967093 /* FlippedTextTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDED74F518AB6DEF00967093 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDAE85D218AE31CC00A74107 /* Social.framework */,
+				EDAE85C418AE2FFB00A74107 /* MessageUI.framework */,
+				EDED74F618AB6DEF00967093 /* Foundation.framework */,
+				EDED74F818AB6DEF00967093 /* CoreGraphics.framework */,
+				EDED74FA18AB6DEF00967093 /* UIKit.framework */,
+				EDED751818AB6DEF00967093 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDED74FC18AB6DEF00967093 /* FlippedText */ = {
+			isa = PBXGroup;
+			children = (
+				EDED750518AB6DEF00967093 /* AppDelegate.h */,
+				EDED750618AB6DEF00967093 /* AppDelegate.m */,
+				EDED750818AB6DEF00967093 /* Main_iPhone.storyboard */,
+				EDED750B18AB6DEF00967093 /* Main_iPad.storyboard */,
+				ED16CC5C18AB8BF00063C6FD /* View */,
+				EDED751118AB6DEF00967093 /* Images.xcassets */,
+				EDED74FD18AB6DEF00967093 /* Supporting Files */,
+			);
+			path = FlippedText;
+			sourceTree = "<group>";
+		};
+		EDED74FD18AB6DEF00967093 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDED74FE18AB6DEF00967093 /* FlippedText-Info.plist */,
+				EDED74FF18AB6DEF00967093 /* InfoPlist.strings */,
+				EDED750218AB6DEF00967093 /* main.m */,
+				EDED750418AB6DEF00967093 /* FlippedText-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDED751E18AB6DEF00967093 /* FlippedTextTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDED751F18AB6DEF00967093 /* Supporting Files */,
+			);
+			path = FlippedTextTests;
+			sourceTree = "<group>";
+		};
+		EDED751F18AB6DEF00967093 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDED752018AB6DEF00967093 /* FlippedTextTests-Info.plist */,
+				EDED752118AB6DEF00967093 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDED74F218AB6DEF00967093 /* FlippedText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDED752818AB6DEF00967093 /* Build configuration list for PBXNativeTarget "FlippedText" */;
+			buildPhases = (
+				EDED74EF18AB6DEF00967093 /* Sources */,
+				EDED74F018AB6DEF00967093 /* Frameworks */,
+				EDED74F118AB6DEF00967093 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlippedText;
+			productName = FlippedText;
+			productReference = EDED74F318AB6DEF00967093 /* FlippedText.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDED751618AB6DEF00967093 /* FlippedTextTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDED752B18AB6DEF00967093 /* Build configuration list for PBXNativeTarget "FlippedTextTests" */;
+			buildPhases = (
+				EDED751318AB6DEF00967093 /* Sources */,
+				EDED751418AB6DEF00967093 /* Frameworks */,
+				EDED751518AB6DEF00967093 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDED751D18AB6DEF00967093 /* PBXTargetDependency */,
+			);
+			name = FlippedTextTests;
+			productName = FlippedTextTests;
+			productReference = EDED751718AB6DEF00967093 /* FlippedTextTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDED74EB18AB6DEF00967093 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = TheAppGuruz;
+				TargetAttributes = {
+					EDED751618AB6DEF00967093 = {
+						TestTargetID = EDED74F218AB6DEF00967093;
+					};
+				};
+			};
+			buildConfigurationList = EDED74EE18AB6DEF00967093 /* Build configuration list for PBXProject "FlippedText" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDED74EA18AB6DEF00967093;
+			productRefGroup = EDED74F418AB6DEF00967093 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDED74F218AB6DEF00967093 /* FlippedText */,
+				EDED751618AB6DEF00967093 /* FlippedTextTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDED74F118AB6DEF00967093 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDED750D18AB6DEF00967093 /* Main_iPad.storyboard in Resources */,
+				EDED751218AB6DEF00967093 /* Images.xcassets in Resources */,
+				EDED750A18AB6DEF00967093 /* Main_iPhone.storyboard in Resources */,
+				EDED750118AB6DEF00967093 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDED751518AB6DEF00967093 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDED752318AB6DEF00967093 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDED74EF18AB6DEF00967093 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDDE070718ACF328006A2295 /* ViewController.m in Sources */,
+				EDED750718AB6DEF00967093 /* AppDelegate.m in Sources */,
+				EDED750318AB6DEF00967093 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDED751318AB6DEF00967093 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDED751D18AB6DEF00967093 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDED74F218AB6DEF00967093 /* FlippedText */;
+			targetProxy = EDED751C18AB6DEF00967093 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDED74FF18AB6DEF00967093 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDED750018AB6DEF00967093 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EDED750818AB6DEF00967093 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDED750918AB6DEF00967093 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		EDED750B18AB6DEF00967093 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDED750C18AB6DEF00967093 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		EDED752118AB6DEF00967093 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDED752218AB6DEF00967093 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDED752618AB6DEF00967093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDED752718AB6DEF00967093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDED752918AB6DEF00967093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlippedText/FlippedText-Prefix.pch";
+				INFOPLIST_FILE = "FlippedText/FlippedText-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EDED752A18AB6DEF00967093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlippedText/FlippedText-Prefix.pch";
+				INFOPLIST_FILE = "FlippedText/FlippedText-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EDED752C18AB6DEF00967093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlippedText.app/FlippedText";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlippedText/FlippedText-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FlippedTextTests/FlippedTextTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EDED752D18AB6DEF00967093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlippedText.app/FlippedText";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlippedText/FlippedText-Prefix.pch";
+				INFOPLIST_FILE = "FlippedTextTests/FlippedTextTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDED74EE18AB6DEF00967093 /* Build configuration list for PBXProject "FlippedText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDED752618AB6DEF00967093 /* Debug */,
+				EDED752718AB6DEF00967093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDED752818AB6DEF00967093 /* Build configuration list for PBXNativeTarget "FlippedText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDED752918AB6DEF00967093 /* Debug */,
+				EDED752A18AB6DEF00967093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDED752B18AB6DEF00967093 /* Build configuration list for PBXNativeTarget "FlippedTextTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDED752C18AB6DEF00967093 /* Debug */,
+				EDED752D18AB6DEF00967093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDED74EB18AB6DEF00967093 /* Project object */;
+}
